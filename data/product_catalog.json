@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": "PROD001",
+      "name": "Premium Wireless Headphones",
+      "category": "Audio",
+      "price": 199.99,
+      "description": "High-quality wireless headphones with noise cancellation, 30-hour battery life, premium sound quality",
+      "features": ["Noise Cancellation", "30-hour battery", "Bluetooth 5.0", "Comfort fit"],
+      "warranty": "2 years",
+      "return_policy": "30 days"
+    },
+    {
+      "id": "PROD002",
+      "name": "Smart Watch Pro",
+      "category": "Wearables",
+      "price": 299.99,
+      "description": "Advanced fitness tracking smartwatch with heart rate monitor, sleep tracking, waterproof design",
+      "features": ["Heart rate monitor", "Sleep tracking", "GPS", "Water resistant"],
+      "warranty": "1 year",
+      "return_policy": "30 days"
+    },
+    {
+      "id": "PROD003",
+      "name": "USB-C Fast Charger",
+      "category": "Accessories",
+      "price": 49.99,
+      "description": "Fast charging adapter with multiple USB ports, compatible with all USB-C devices",
+      "features": ["Fast charging", "Multiple ports", "Compact design", "Safe charging technology"],
+      "warranty": "1 year",
+      "return_policy": "60 days"
+    },
+    {
+      "id": "PROD004",
+      "name": "Portable SSD 1TB",
+      "category": "Storage",
+      "price": 149.99,
+      "description": "High-speed portable solid state drive with 1TB capacity, rugged design, USB-C connection",
+      "features": ["1TB storage", "USB-C 3.1", "Drop-proof design", "Fast transfer speeds"],
+      "warranty": "3 years",
+      "return_policy": "30 days"
+    },
+    {
+      "id": "PROD005",
+      "name": "Mechanical Keyboard",
+      "category": "Peripherals",
+      "price": 159.99,
+      "description": "RGB mechanical keyboard with customizable switches, ideal for gaming and typing",
+      "features": ["RGB lighting", "Mechanical switches", "Customizable", "Programmable keys"],
+      "warranty": "2 years",
+      "return_policy": "30 days"
+    }
+  ]
+}
