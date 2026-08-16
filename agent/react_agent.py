@@ -59,7 +59,7 @@ class ReActAgent:
             early_stopping_method="force"
         )
     
-    return agent
+        return agent
     
     def _format_memory_context(self) -> str:
         memory_context = self.memory_manager.get_memory_context()
