@@ -46,18 +46,18 @@ class ReActAgent:
         return tools
     
     def _initialize_agent(self):
-    callbacks = [StdOutCallbackHandler()] if self.verbose else []
+        callbacks = [StdOutCallbackHandler()] if self.verbose else []
     
-    agent = initialize_agent(
-        tools=self.tools,
-        llm=self.llm,
-        agent="zero-shot-react-description",
-        callbacks=callbacks,
-        verbose=self.verbose,
-        max_iterations=settings.max_iterations,
-        timeout=settings.timeout_seconds,
-        early_stopping_method="force"
-    )
+        agent = initialize_agent(
+            tools=self.tools,
+            llm=self.llm,
+            agent="zero-shot-react-description",
+            callbacks=callbacks,
+            verbose=self.verbose,
+            max_iterations=settings.max_iterations,
+            timeout=settings.timeout_seconds,
+            early_stopping_method="force"
+        )
     
     return agent
     
